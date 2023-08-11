@@ -6,11 +6,11 @@ import { BrowserRouter as Router } from "react-router-dom"
 function App() {
 
 // Making the .env key a variable
-  const var10_1 = import.meta.env.VITE_10_1_VAR
+  // const var10_1 = import.meta.env.VITE_10_1_VAR
 
-  
-  console.log(" one .env variable", import.meta.env.VITE_10_1_VAR,
-  var10_1)
+
+  // console.log(" one .env variable", import.meta.env.VITE_10_1_VAR,
+  // var10_1)
   return (
     <>
       <Router>
@@ -18,7 +18,7 @@ function App() {
         <h1>
           Screenviews
         </h1>
-        <h2> TEST {import.meta.env.VITE_10_1_VAR} </h2>
+        {/* <h2> TEST {import.meta.env.VITE_10_1_VAR} </h2> */}
       </Router>
 
     </>
